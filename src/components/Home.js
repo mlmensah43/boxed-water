@@ -1,11 +1,12 @@
 import React from 'react';
+import Pic from '../images/Main.svg';
 import '../css/Home.css';
 
 function Home() {
   return (
     <div className="Home">
         <div className="home-background">
-            <img src={require("../images/Main.svg")} alt="home"></img>
+            <image src={Pic} alt="home"></image>
         </div>
     </div>
   );
