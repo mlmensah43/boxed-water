@@ -1,3 +1,16 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    border: none;
+    outline: none;
+    background: none;
+}
+
+

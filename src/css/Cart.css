@@ -1,0 +1,70 @@
+.full-page{
+    background-image: url('../images/Boxed-Confetti.png');
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.cart{
+    background-color: rgba(0,0,0,.45);
+    color: white;
+    height: 60vh;
+    width: 35%;
+    border-radius: 30px;
+    margin: 0 35%;
+}
+
+.cart-image{
+    width: 35%;
+    height: 20%;
+    border-radius: 25px;
+
+}
+.full-button{
+    border: 1px solid;
+    border-radius: 24px;
+    width: 63px;
+}
+
+.number-button{
+    color: white;
+}
+
+.vl{
+    border-left: 1px solid;
+    padding: 0 5px 0 5px;
+    height: 100%;
+}
+
+.vr{
+    border-right: 1px solid;
+    height: 100%;
+}
+
+.remove{
+    color: red;
+}
+
+.details{
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+.total{
+    margin-left: 10%;
+}
+
+.total-num{
+    margin-left: 75%;
+}
+
+.disclaimer{
+    font-size: 50%;
+}
+

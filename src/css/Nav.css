@@ -1,0 +1,24 @@
+.header{
+    margin: auto;
+}
+
+.logo{
+    width: 10vw;
+    font-weight: 700;
+    font-size: calc(1rem + 1vw);
+    margin: 3vh 0 0 3vh;
+}
+
+.nav{
+    font-size: calc(.4rem + 1vw);
+    text-decoration: none;
+    justify-content: space-around;
+    margin: .5% 0 0 30%;
+    /* background-color: bisque; */
+}
+
+.nav-item{
+    list-style: none;
+    display: inline;
+    padding-right: 40%;
+}

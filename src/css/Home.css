@@ -1,4 +1,40 @@
-.home-background{
-    height: 80vh;
-    margin: auto;
+.promo-home{
+    text-align: center;
 }
+
+.promo-title-home{
+    font-size: calc(1.5rem + 1vw);
+    font-weight: 300;
+    color: #199DDB;
+    margin: 8% 0 0 0;
+}
+
+.promo-home p{
+    color: #404040;
+    opacity: .85;
+}
+
+.social{
+    margin: 15% 0 0 0;
+    
+}
+
+.hashtag{
+    margin: 0 0 0 3vh;
+    color: #404040;
+    opacity: .85;
+}
+
+.social-media-icons{
+    margin: 0 0 0 75%;
+}
+
+.social-media-icon{
+    margin: 0 0 0 3vh;
+    color: #404040;
+    opacity: .85;
+}
+
+svg {
+    fill: currentColor;
+  }
