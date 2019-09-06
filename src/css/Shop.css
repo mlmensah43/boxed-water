@@ -1,11 +1,21 @@
 
 button:hover{
-    font-size: 105%;
+    /* font-size: 155%; */
     /* visibility: visible;  */
 }
 
 .add-button{
     color: #199DDB;
     text-shadow: 0px .5px 5px rgba(0, 0, 0, 0.438);
+    font-size: 150%;
     /* visibility: hidden; */
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.drinks{
+    margin-left: 25%;
 }

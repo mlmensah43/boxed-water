@@ -1,21 +1,52 @@
+.home{
+    background: url('../images/Main.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
 .promo-home{
-    text-align: center;
+    text-align: left;
+    
+}
+
+.dots{
+    position: sticky;
+}
+
+.dot{
+    height: 5px;
+    width: 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: .2% 97%;
 }
 
 .promo-title-home{
-    font-size: calc(1.5rem + 1vw);
+    font-size: calc(2.5rem + 1vw);
     font-weight: 300;
     color: #199DDB;
-    margin: 8% 0 0 0;
+    margin: 4% 0 0 3vh;
 }
 
 .promo-home p{
-    color: #404040;
+    background-color: #199DDB;
+    width: 40vw;
+    height: 15vh;
+    color: white;
     opacity: .85;
+    font-size: calc(.5rem + 1vw);
+    margin: 0 0 0 60%;
+    
+}
+
+.promo-p{
+    padding: 2.5% 0 0 2%;
 }
 
 .social{
-    margin: 15% 0 0 0;
+    margin: 12% 0 0 0;
     
 }
 
@@ -23,6 +54,7 @@
     margin: 0 0 0 3vh;
     color: #404040;
     opacity: .85;
+    font-size: 1em;
 }
 
 .social-media-icons{
@@ -33,6 +65,7 @@
     margin: 0 0 0 3vh;
     color: #404040;
     opacity: .85;
+    height: 4vh;
 }
 
 svg {

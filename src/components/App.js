@@ -1,14 +1,17 @@
 import React from 'react';
-// import Home from './Home'
-// import Shop from './Shop'
+import {HashRouter as Router, Route} from 'react-router-dom';
+import Home from './Home'
+import Shop from './Shop'
 import Cart from './Cart'
 import '../css/App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Cart></Cart>
-    </div>
+    <Router>
+      <Route path="/" exact component={Home} />
+      <Route path="/shop" exact component={Shop} />
+      <Route path="/cart" exact component={Cart} />
+    </Router>
   );
 }
 

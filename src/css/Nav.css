@@ -7,6 +7,7 @@
     font-weight: 700;
     font-size: calc(1rem + 1vw);
     margin: 3vh 0 0 3vh;
+    
 }
 
 .nav{
@@ -21,4 +22,9 @@
     list-style: none;
     display: inline;
     padding-right: 40%;
+}
+
+.link{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.85);
 }

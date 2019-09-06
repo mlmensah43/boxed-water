@@ -1,6 +1,6 @@
 .full-page{
     background-image: url('../images/Boxed-Confetti.png');
-    height: 100vh;
+    height: 120vh;
     background-attachment: fixed;
 }
 
@@ -29,7 +29,9 @@
 .full-button{
     border: 1px solid;
     border-radius: 24px;
-    width: 63px;
+    width: 72px;
+    text-align: center;
+    align-items: center;
 }
 
 .number-button{
@@ -66,5 +68,10 @@
 
 .disclaimer{
     font-size: 50%;
+}
+
+.empty{
+    text-align: center;
+    padding-top: 5%;
 }
 

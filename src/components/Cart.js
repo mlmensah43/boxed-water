@@ -12,11 +12,14 @@ class Cart extends React.Component {
   }
 
   addSmall = () => {
+    if(this.state.small === 15){
+      alert("You may only purchase 15 packs of each size in one shipment");
+      return
+    }
     let num = localStorage.getItem('small');
     num++;
     localStorage.setItem('small', num);
     this.setState({small: num});
-
     this.getSubtotal();
   };
 
@@ -28,7 +31,6 @@ class Cart extends React.Component {
     num--;
     localStorage.setItem('small', num);
     this.setState({small: num});
-
     this.getSubtotal();
   };
 
@@ -39,11 +41,14 @@ class Cart extends React.Component {
   }
 
   addMedium = () => {
+    if(this.state.medium === 15){
+      alert("You may only purchase 15 packs of each size in one shipment");
+      return
+    }
     let num = localStorage.getItem('medium');
     num++;
     localStorage.setItem('medium', num);
     this.setState({medium: num});
-
     this.getSubtotal();
   };
 
@@ -55,7 +60,6 @@ class Cart extends React.Component {
     num--;
     localStorage.setItem('medium', num);
     this.setState({medium: num});
-
     this.getSubtotal();
   };
 
@@ -66,11 +70,14 @@ class Cart extends React.Component {
   }
 
   addLarge = () => {
+    if(this.state.large === 15){
+      alert("You may only purchase 15 packs of each size in one shipment");
+      return
+    }
     let num = localStorage.getItem('large');
     num++;
     localStorage.setItem('large', num);
     this.setState({large: num});
-
     this.getSubtotal();
   };
 
@@ -82,7 +89,6 @@ class Cart extends React.Component {
     num--;
     localStorage.setItem('large', num);
     this.setState({large: num});
-
     this.getSubtotal();
   };
 
@@ -98,76 +104,115 @@ class Cart extends React.Component {
     let m = localStorage.getItem('medium') * 24.74;
     let l = localStorage.getItem('large') * 35.74;
     let subtotal = s + m + l;
-
-    this.setState({total: subtotal});
+    this.setState({total: parseFloat(Math.round(subtotal * 100) / 100).toFixed(2)});
     localStorage.setItem('total',subtotal);
   }
-  
 
-  render(){
-    return (
-      <div className="full-page">
-      <Nav></Nav>
-        <div className="cart">
+  renderSmall(){
+    if(this.state.small > 0){
+      return(
+        <div className="details flex-container">
+        <img className="cart-image" src={require('../images/250ML.jpg')} alt="250"></img>
+        <div className="col">
+          <span>250 mL Boxed Water 12 Pack<br/>$13.42</span>
 
-          <div className="details flex-container">
-            <img className="cart-image" src={require('../images/250ML.jpg')} alt="250"></img>
-            <div className="col">
-              <span>250 mL Boxed Water 12 Pack<br/>$13.42</span>
-
-              <div className="flex-container">
-                  <button onClick={this.removeAllSmall} className="remove">Remove</button>
-                  <div className="full-button">
-                    <button onClick={this.removeSmall} className="number-button">-</button>
-                    <span className="vl vr">{this.state.small}</span>
-                    <button onClick={this.addSmall} className="number-button">+</button>
-                  </div>
+          <div className="flex-container">
+              <button onClick={this.removeAllSmall} className="remove">Remove</button>
+              <div className="full-button">
+                <button onClick={this.removeSmall} className="number-button">-</button>
+                <span className="vl vr">{this.state.small}</span>
+                <button onClick={this.addSmall} className="number-button">+</button>
               </div>
-              
-            </div>
-            
           </div>
+          
+        </div>
+        
+      </div>
+      );
+    }
+  }
 
-          <div className="details flex-container">
-          <img className="cart-image" src={require('../images/500ML.jpg')} alt="500"></img>
-            <div className="col">
-              <span>500 mL Boxed Water 12 Pack<br/>$24.74</span>
+  renderMedium(){
+    if(this.state.medium > 0){
+    return(
+      <div className="details flex-container">
+      <img className="cart-image" src={require('../images/500ML.jpg')} alt="500"></img>
+        <div className="col">
+          <span>500 mL Boxed Water 12 Pack<br/>$24.74</span>
 
-              <div className="flex-container">
-                <button onClick={this.removeAllMedium} className="remove">Remove</button>
-                <div className="full-button">
-                  <button onClick={this.removeMedium} className="number-button">-</button>
-                  <span className="vl vr">{this.state.medium}</span>
-                  <button onClick={this.addMedium} className="number-button">+</button>
-                </div>
+          <div className="flex-container">
+            <button onClick={this.removeAllMedium} className="remove">Remove</button>
+            <div className="full-button">
+              <button onClick={this.removeMedium} className="number-button">-</button>
+              <span className="vl vr">{this.state.medium}</span>
+              <button onClick={this.addMedium} className="number-button">+</button>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    );
+    }
+  }
+
+
+  renderLarge(){
+    if(this.state.large > 0){
+      return(
+        <div className="details flex-container">
+        <img className="cart-image" src={require('../images/1Liter.jpg')} alt="1Liter"></img>
+          <div className ="col">
+            <span>1 Liter Boxed Water 12 Pack<br/>$35.74</span>
+
+            <div className="flex-container">
+              <button onClick={this.removeAllLarge} className="remove">Remove</button>
+              <div className="full-button">
+                <button onClick={this.removeLarge} className="number-button">-</button>
+                <span className="vl vr">{this.state.large}</span>
+                <button onClick={this.addLarge} className="number-button">+</button>
               </div>
             </div>
-            
           </div>
+        </div>
+        );
+    }
+    
+  }
 
-
-          <div className="details flex-container">
-          <img className="cart-image" src={require('../images/1Liter.jpg')} alt="1Liter"></img>
-            <div className ="col">
-              <span>1 Liter Boxed Water 12 Pack<br/>$35.74</span>
-
-              <div className="flex-container">
-                <button onClick={this.removeAllLarge} className="remove">Remove</button>
-                <div className="full-button">
-                  <button onClick={this.removeLarge} className="number-button">-</button>
-                  <span className="vl vr">{this.state.large}</span>
-                  <button onClick={this.addLarge} className="number-button">+</button>
-                </div>
-              </div>
-            </div>
-            
-            
-          </div>
+  renderTotal(){
+    if(this.state.total > 0){
+      return(
+        <div>
           <hr></hr>
           <div className="total">Subtotal
             <span className="total-num">${this.state.total}</span>
             <span className="disclaimer"><br/>Shipping and taxes calculated at checkout</span>
           </div>
+        </div>
+        
+      );
+    }
+
+    return(
+      <div className="empty">
+        Cart is Empty!
+      </div>
+    );
+  }
+
+  render(){
+    return(
+      <div className="full-page">
+      <Nav></Nav>
+        <div className="cart">
+
+          {this.renderSmall()}
+          {this.renderMedium()}
+          {this.renderLarge()}
+          {this.renderTotal()}
+
+          
+
         </div>
       </div>
     );
