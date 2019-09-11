@@ -111,17 +111,17 @@ class Cart extends React.Component {
   renderSmall(){
     if(this.state.small > 0){
       return(
-        <div className="details flex-container">
+        <div className="details flex-container-row">
         <img className="cart-image" src={require('../images/250ML.jpg')} alt="250"></img>
-        <div className="col">
+        <div className="flex-container-column item-name">
           <span>250 mL Boxed Water 12 Pack<br/>$13.42</span>
 
-          <div className="flex-container">
+          <div className="flex-container-row">
               <button onClick={this.removeAllSmall} className="remove">Remove</button>
               <div className="full-button">
-                <button onClick={this.removeSmall} className="number-button">-</button>
+                <button onClick={this.removeSmall} className="button-sign">-</button>
                 <span className="vl vr">{this.state.small}</span>
-                <button onClick={this.addSmall} className="number-button">+</button>
+                <button onClick={this.addSmall} className="button-sign">+</button>
               </div>
           </div>
           
@@ -135,17 +135,17 @@ class Cart extends React.Component {
   renderMedium(){
     if(this.state.medium > 0){
     return(
-      <div className="details flex-container">
+      <div className="details flex-container-row">
       <img className="cart-image" src={require('../images/500ML.jpg')} alt="500"></img>
-        <div className="col">
+        <div className="flex-container-column item-name">
           <span>500 mL Boxed Water 12 Pack<br/>$24.74</span>
 
-          <div className="flex-container">
+          <div className="flex-container-row">
             <button onClick={this.removeAllMedium} className="remove">Remove</button>
             <div className="full-button">
-              <button onClick={this.removeMedium} className="number-button">-</button>
+              <button onClick={this.removeMedium} className="button-sign">-</button>
               <span className="vl vr">{this.state.medium}</span>
-              <button onClick={this.addMedium} className="number-button">+</button>
+              <button onClick={this.addMedium} className="button-sign">+</button>
             </div>
           </div>
         </div>
@@ -159,17 +159,17 @@ class Cart extends React.Component {
   renderLarge(){
     if(this.state.large > 0){
       return(
-        <div className="details flex-container">
+        <div className="details flex-container-row">
         <img className="cart-image" src={require('../images/1Liter.jpg')} alt="1Liter"></img>
-          <div className ="col">
+          <div className ="flex-container-column item-name">
             <span>1 Liter Boxed Water 12 Pack<br/>$35.74</span>
 
-            <div className="flex-container">
+            <div className="flex-container-row">
               <button onClick={this.removeAllLarge} className="remove">Remove</button>
-              <div className="full-button">
-                <button onClick={this.removeLarge} className="number-button">-</button>
+              <div className="full-button ">
+                <button onClick={this.removeLarge} className="button-sign">-</button>
                 <span className="vl vr">{this.state.large}</span>
-                <button onClick={this.addLarge} className="number-button">+</button>
+                <button onClick={this.addLarge} className="button-sign">+</button>
               </div>
             </div>
           </div>
@@ -184,10 +184,11 @@ class Cart extends React.Component {
       return(
         <div>
           <hr></hr>
-          <div className="total">Subtotal
-            <span className="total-num">${this.state.total}</span>
-            <span className="disclaimer"><br/>Shipping and taxes calculated at checkout</span>
+          <div className="flex-container-row total">
+            <div>Subtotal</div>
+            <div className="total-num">${this.state.total}</div>
           </div>
+            <span className="disclaimer">Shipping and taxes calculated at checkout</span>
         </div>
         
       );
@@ -202,7 +203,7 @@ class Cart extends React.Component {
 
   render(){
     return(
-      <div className="full-page">
+      <div className="cart-background">
       <Nav></Nav>
         <div className="cart">
 

@@ -1,65 +1,3 @@
-.header-about{
-    text-align: center;
-    margin: 5% auto;
-    color: #199DDB;
-    font-size: calc(1.5rem + 1vw);
-    
-}
-
-.subheader-about{
-    font-size: calc(1rem + 1vw);
-    color: rgba(112, 112, 112, 0.85);
-    margin: 3vh;
-}
-
-.facts{
-    margin-top: 10%;
-}
-
-.blue-square{
-    background-color: #199DDB;
-    width: 53vw;
-    height: 20vh;
-    color: white;
-    opacity: .85;
-    font-size: calc(.5rem + 1vw);
-    margin: 5% 0 0 20%;
-    padding: 5% 5% 0 5%;
-}
-
-.packaging{
-    margin-top: 8%;
-}
-
-.fact-image{
-    width: 35%;
-    margin: 5% 0 0 50%;
-}
-
-.package-image{
-    width: 30%;
-    height: 10%;
-    margin-left: 3vh;
-    margin-top: 3vh;
-}
-
-.pledge-image{
-    margin: 2% 42%;
-}
-
-.pledge{
-    text-align: center;
-}
-
-.pledge-merch-image{
-    width: 40vw;
-    margin: 5%;
-}
-
-.pledge-merch{ 
-    margin-top: 20%;
-}
-
 .paragraph{
     color: #707070;
     font-size: calc(.5rem + 1vw);
@@ -70,7 +8,7 @@
 }
 
 .team-image{
-    margin-left: 15%;
-    width: 70vw;
+    margin-left: 30%;
+    width: 50vw;
 }
 

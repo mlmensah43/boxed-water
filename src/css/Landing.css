@@ -1,0 +1,64 @@
+.background{
+    background: url('../images/Main.png') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* .dot{
+    position: sticky;
+    height: 5px;
+    width: 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: .2% 97%;
+} */
+
+.landing h2{
+    font-size: calc(2rem + 2vmin);
+    font-weight: 300;
+    color: #199DDB;
+    margin: 6% 0 0 3vh;
+}
+
+.landing p{
+    background-color: #199DDB;
+    width: calc(40vw + 5vmin);
+    height: calc(10vh + 5vmin);
+    margin: 5% 0 0 auto;
+    color: white;
+    opacity: .85;
+    padding: 2%;
+}
+
+.social-media{
+    justify-content: space-between; 
+    margin: 6% 0 0 0; 
+}
+
+.hashtag{
+    font-size: calc(.6em + 1vmin);
+    margin: 0 0 0 3vh;
+    color: #404040;
+    opacity: .85;
+}
+
+.social-media-icons{
+    justify-content: space-around;
+}
+
+.social-media-icon{
+    margin: 0 3vh 0 0;
+    opacity: .5;
+    height: 4vh;
+}
+
+@media (max-width: 800px){
+    p{
+       font-size: calc(.3rem + 1vmin);
+    }
+
+    .landing p{
+        height: calc(10vh + 2vmin);
+    }
+   }

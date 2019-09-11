@@ -49,23 +49,28 @@ function Shop() {
     return (
       <div className="shop">
           <Nav></Nav>
-          <div className="flex-container drinks">
-            <div className="column">
-              <img src={require('../images/250ml-cap.jpg')} alt="250"></img>
-              <button onClick={addSmall} className="add-button small">add to cart</button>
+          <div className="flex-container-row shop-row">
+
+            <div className="flex-container-column option-column">
+              <img className="shop-image" src={require('../images/small.png')} alt="250"></img>
+              <div>200ML</div>
+              <button onClick={addSmall} className="add-button">add to cart</button>
             </div>
 
-            <div  className="column">
-              <img src={require('../images/500ml-cap.jpg')} alt="500"></img>
-              <button onClick={addMedium} className="add-button medium">add to cart</button>
+            <div  className="flex-container-column option-column">
+              <img className="shop-image" src={require('../images/medium.png')} alt="500"></img>
+              <div>500ML</div>
+              <button onClick={addMedium} className="add-button">add to cart</button>
             </div>
             
-            <div className="column">
-              <img src={require('../images/liter.jpg')} alt="liter"></img>
-              <button onClick={addLarge} className="add-button large">add to cart</button>
+            <div className="flex-container-column option-column">
+              <img className="shop-image" src={require('../images/large.png')} alt="liter"></img>
+              <div>1 LITER</div>
+              <button onClick={addLarge} className="add-button">add to cart</button>
             </div>
           </div>
-          
+
+          <div className="flex-container-row subheader shop-subheader">CHOOSE A SIZE</div>
           
       </div>
     );

@@ -1,0 +1,25 @@
+.footer{
+    color: white;
+    margin: 10% 0 1% 0;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(17, 17, 17, 0.9);
+}
+
+.social-icon-footer{
+    height: 4vh;
+    margin: 2vw 1vw;
+}
+
+path{
+    fill: white;
+}
+
+@media (max-width: 1050px){
+    .footer-hashtag{
+        font-size: .3em;
+    }
+    .copyright{
+        font-size: .3em;
+    }
+}

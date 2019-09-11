@@ -1,0 +1,22 @@
+.pledge{
+    align-items: center;
+}
+
+.pledge-image{
+    width: calc(60% + 5vmin);
+    margin: 2%;
+}
+
+.pledge{
+    text-align: center;
+}
+
+.pledge-merch-image{
+    width: 40vw;
+    margin: 5%;
+}
+
+.pledge-merch{ 
+    margin-top: 20%;
+}
+

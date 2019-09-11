@@ -1,27 +1,20 @@
-.header{
-    margin: auto;
-}
-
 .logo{
-    width: 10vw;
+    font-size: calc(1.3rem + 1vmin);
     font-weight: 700;
-    font-size: calc(1rem + 1vw);
+    width: 10vw;
     margin: 3vh 0 0 3vh;
-    
 }
 
 .nav{
-    font-size: calc(.4rem + 1vw);
+    font-size: calc(.8rem + 1vmin);
     text-decoration: none;
-    justify-content: space-around;
-    margin: .5% 0 0 30%;
-    /* background-color: bisque; */
+    margin: 3vh 30%;
 }
 
 .nav-item{
     list-style: none;
     display: inline;
-    padding-right: 40%;
+    padding-right: 60%;
 }
 
 .link{

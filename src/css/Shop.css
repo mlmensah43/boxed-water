@@ -1,21 +1,38 @@
-
-button:hover{
-    /* font-size: 155%; */
-    /* visibility: visible;  */
-}
-
 .add-button{
+    /* text-shadow: 0px .5px 5px rgba(0, 0, 0, 0.438); */
     color: #199DDB;
-    text-shadow: 0px .5px 5px rgba(0, 0, 0, 0.438);
-    font-size: 150%;
-    /* visibility: hidden; */
+    font-size: 1em;
 }
 
-.column{
-    display: flex;
-    flex-direction: column;
+.shop-row{
+    justify-content: center;
+    align-items: flex-end;
 }
 
-.drinks{
-    margin-left: 25%;
+.shop-image{
+    margin: 2vw
+}
+
+/* button:hover{
+    font-size: 110%;
+} */
+
+.option-column{
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.shop-subheader{
+    justify-content: center;
+    visibility: visible;
+}
+
+@media (max-width: 1050px){
+
+    .shop-image{
+        width: 25vw;
+        margin: 0;
+    }
+
+    
 }

@@ -1,0 +1,45 @@
+.header-about{
+    text-align: center;
+    margin: 5% auto;
+    color: #199DDB;
+    font-size: calc(1.5rem + 1vw);
+    
+}
+
+.subheader-about{
+    font-size: calc(1rem + 1vw);
+    color: rgba(112, 112, 112, 0.85);
+    margin: 3vh;
+}
+
+.facts{
+    margin-top: 10%;
+}
+
+.blue-square{
+    background-color: #199DDB;
+    width: calc(60vw + 5vmin);
+    height: calc(10vh + 5vmin);
+    margin: 5% 0 0 auto;
+    color: white;
+    opacity: .85;
+    padding: 2%;
+}
+
+.packaging{
+    margin-top: 8%;
+}
+
+.fact-image{
+    width: 35%;
+    margin: 5% 0 0 50%;
+}
+
+
+.package-image{
+    width: 30%;
+    height: 10%;
+    margin-left: 3vh;
+    margin-top: 3vh;
+}
+

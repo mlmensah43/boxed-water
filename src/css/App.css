@@ -1,8 +1,9 @@
 body{
     font-family: 'Roboto', sans-serif;
+    width: 100vw;
 }
 
-.flex-container{
+.flex-container-row{
     display: flex;
     flex-direction: row;
 }
@@ -12,10 +13,24 @@ body{
     flex-direction: column;
 }
 
+.subheader{
+    font-size: calc(1rem + 1vw);
+    color: rgba(112, 112, 112, 0.85);
+    margin: 3vh;
+}
+
+p{
+    font-size: calc(.4rem + 2vmin);
+}
+
 button{
     border: none;
     outline: none;
     background: none;
 }
 
-
+@media (max-width: 800px){
+ p{
+    font-size: calc(.3rem + 1vmin);
+ }
+}
