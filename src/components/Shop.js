@@ -3,45 +3,45 @@ import Nav from './Nav';
 import '../css/Shop.css';
 
 const addSmall = () =>{
-  let num = localStorage.getItem('small');
+  let num = sessionStorage.getItem('small');
   if(num >= 15){
     alert("You may only purchase 15 packs of each size in one shipment");
     return
   }
   num++;
-  localStorage.setItem('small', num);
+  sessionStorage.setItem('small', num);
   getSubtotal();
 };
 
 const addMedium = () => {
-  let num = localStorage.getItem('medium');
+  let num = sessionStorage.getItem('medium');
   if(num >= 15){
     alert("You may only purchase 15 packs of each size in one shipment");
     return
   }
   num++;
-  localStorage.setItem('medium', num);
+  sessionStorage.setItem('medium', num);
   getSubtotal();
 };
 
 const addLarge = () => {
-  let num = localStorage.getItem('large');
+  let num = sessionStorage.getItem('large');
   if(num >= 15){
     alert("You may only purchase 15 packs of each size in one shipment");
     return
   }
   num++;
-  localStorage.setItem('large', num);
+  sessionStorage.setItem('large', num);
   getSubtotal();
 };
 
 const getSubtotal = () =>{
-  let s = localStorage.getItem('small') * 13.42;
-  let m = localStorage.getItem('medium') * 24.74;
-  let l = localStorage.getItem('large') * 35.74;
+  let s = sessionStorage.getItem('small') * 13.42;
+  let m = sessionStorage.getItem('medium') * 24.74;
+  let l = sessionStorage.getItem('large') * 35.74;
   let subtotal = s + m + l;
 
-  localStorage.setItem('total', subtotal);
+  sessionStorage.setItem('total', subtotal);
 };
 
 function Shop() {

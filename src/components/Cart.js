@@ -5,10 +5,10 @@ import '../css/Cart.css';
 class Cart extends React.Component {
 
   state= {
-    small: localStorage.getItem('small'),
-    medium: localStorage.getItem('medium'),
-    large: localStorage.getItem('large'),
-    total: localStorage.getItem('total')
+    small: sessionStorage.getItem('small'),
+    medium: sessionStorage.getItem('medium'),
+    large: sessionStorage.getItem('large'),
+    total: sessionStorage.getItem('total')
   }
 
   addSmall = () => {
@@ -16,9 +16,9 @@ class Cart extends React.Component {
       alert("You may only purchase 15 packs of each size in one shipment");
       return
     }
-    let num = localStorage.getItem('small');
+    let num = sessionStorage.getItem('small');
     num++;
-    localStorage.setItem('small', num);
+    sessionStorage.setItem('small', num);
     this.setState({small: num});
     this.getSubtotal();
   };
@@ -27,15 +27,15 @@ class Cart extends React.Component {
     if(this.state.small === 0){
       return
     }
-    let num = localStorage.getItem('small');
+    let num = sessionStorage.getItem('small');
     num--;
-    localStorage.setItem('small', num);
+    sessionStorage.setItem('small', num);
     this.setState({small: num});
     this.getSubtotal();
   };
 
   removeAllSmall = () => {
-    localStorage.setItem('small', 0);
+    sessionStorage.setItem('small', 0);
     this.setState({small: 0});
     this.getSubtotal();
   }
@@ -45,9 +45,9 @@ class Cart extends React.Component {
       alert("You may only purchase 15 packs of each size in one shipment");
       return
     }
-    let num = localStorage.getItem('medium');
+    let num = sessionStorage.getItem('medium');
     num++;
-    localStorage.setItem('medium', num);
+    sessionStorage.setItem('medium', num);
     this.setState({medium: num});
     this.getSubtotal();
   };
@@ -56,15 +56,15 @@ class Cart extends React.Component {
     if(this.state.medium === 0){
       return
     }
-    let num = localStorage.getItem('medium');
+    let num = sessionStorage.getItem('medium');
     num--;
-    localStorage.setItem('medium', num);
+    sessionStorage.setItem('medium', num);
     this.setState({medium: num});
     this.getSubtotal();
   };
 
   removeAllMedium = () => {
-    localStorage.setItem('medium', 0);
+    sessionStorage.setItem('medium', 0);
     this.setState({medium: 0});
     this.getSubtotal();
   }
@@ -74,9 +74,9 @@ class Cart extends React.Component {
       alert("You may only purchase 15 packs of each size in one shipment");
       return
     }
-    let num = localStorage.getItem('large');
+    let num = sessionStorage.getItem('large');
     num++;
-    localStorage.setItem('large', num);
+    sessionStorage.setItem('large', num);
     this.setState({large: num});
     this.getSubtotal();
   };
@@ -85,27 +85,27 @@ class Cart extends React.Component {
     if(this.state.large === 0){
       return
     }
-    let num = localStorage.getItem('large');
+    let num = sessionStorage.getItem('large');
     num--;
-    localStorage.setItem('large', num);
+    sessionStorage.setItem('large', num);
     this.setState({large: num});
     this.getSubtotal();
   };
 
   removeAllLarge = () => {
-    localStorage.setItem('large', 0);
+    sessionStorage.setItem('large', 0);
     this.setState({large: 0});
     this.getSubtotal();
   }
 
 
   getSubtotal(){
-    let s = localStorage.getItem('small') * 13.42;
-    let m = localStorage.getItem('medium') * 24.74;
-    let l = localStorage.getItem('large') * 35.74;
+    let s = sessionStorage.getItem('small') * 13.42;
+    let m = sessionStorage.getItem('medium') * 24.74;
+    let l = sessionStorage.getItem('large') * 35.74;
     let subtotal = s + m + l;
     this.setState({total: parseFloat(Math.round(subtotal * 100) / 100).toFixed(2)});
-    localStorage.setItem('total',subtotal);
+    sessionStorage.setItem('total',subtotal);
   }
 
   renderSmall(){
