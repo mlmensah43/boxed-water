@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f3143498c0ad33240308ae8b4975951f",
+    "revision": "fbc48702a82372c517e1678f0476ea4e",
     "url": "/boxed_water/index.html"
   },
   {
-    "revision": "a281dcb87e5b97770b6c",
+    "revision": "d00c76902a277e70459a",
     "url": "/boxed_water/static/css/main.0ce5f5c5.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/boxed_water/static/js/2.6150e5a1.chunk.js"
   },
   {
-    "revision": "a281dcb87e5b97770b6c",
-    "url": "/boxed_water/static/js/main.81e8dd73.chunk.js"
+    "revision": "d00c76902a277e70459a",
+    "url": "/boxed_water/static/js/main.3f509dd4.chunk.js"
   },
   {
     "revision": "d86f2cf1f798d5a7830b",
