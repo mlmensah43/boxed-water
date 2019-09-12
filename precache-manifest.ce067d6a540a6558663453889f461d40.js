@@ -1,39 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "13f26e9d291526d4f151d06f4b9afa57",
+    "revision": "2a22fc334a2124eb93228a8a0c493b46",
     "url": "/index.html"
   },
   {
-    "revision": "5a358a471aa78d147e41",
-    "url": "/static/css/main.61fc4a6c.chunk.css"
+    "revision": "c24f3a73ca971a164bd3",
+    "url": "/static/css/main.873be7fd.chunk.css"
   },
   {
-    "revision": "542ea47f5f778936792c",
-    "url": "/static/js/2.62f9e0fa.chunk.js"
+    "revision": "775a34db04fb754e7901",
+    "url": "/static/js/2.e510aac9.chunk.js"
   },
   {
-    "revision": "5a358a471aa78d147e41",
-    "url": "/static/js/main.a45eca66.chunk.js"
+    "revision": "c24f3a73ca971a164bd3",
+    "url": "/static/js/main.6f11ae29.chunk.js"
   },
   {
     "revision": "0648e454a59965d32bd4",
     "url": "/static/js/runtime~main.ae28c465.js"
-  },
-  {
-    "revision": "4f3a9ab4ef3ce097288ec2675fa7292c",
-    "url": "/static/media/1Liter.4f3a9ab4.jpg"
-  },
-  {
-    "revision": "bf4ee98930373273831f58fbc27bb2ae",
-    "url": "/static/media/250ML.bf4ee989.jpg"
-  },
-  {
-    "revision": "fc2f80da86e0b3b7bd70e26a5beaaa42",
-    "url": "/static/media/500ML.fc2f80da.jpg"
-  },
-  {
-    "revision": "64b56a05a7aab429e87b16e75127b9f9",
-    "url": "/static/media/Boxed-Confetti.64b56a05.png"
   },
   {
     "revision": "9f7a52747f6b5cd79e82729143b0da98",
@@ -52,14 +36,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/instagram.341a67c5.svg"
   },
   {
-    "revision": "6c9c4ede6656f5a9b60b93fd6592a647",
-    "url": "/static/media/large.6c9c4ede.png"
-  },
-  {
-    "revision": "4e76ebf87a24eaa62e08d69ef79c6814",
-    "url": "/static/media/medium.4e76ebf8.png"
-  },
-  {
     "revision": "c1adb786b651a31d3a60d7c3e0a98611",
     "url": "/static/media/our-facilities.c1adb786.png"
   },
@@ -74,10 +50,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "759f7d944a5ae3d1cbfbb22911841301",
     "url": "/static/media/pledge.759f7d94.png"
-  },
-  {
-    "revision": "d0895f899725df8635a3c345f698afc0",
-    "url": "/static/media/small.d0895f89.png"
   },
   {
     "revision": "dd9897b46278f98e88d312a6fa93d3fb",
