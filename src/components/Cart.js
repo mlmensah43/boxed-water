@@ -212,8 +212,6 @@ class Cart extends React.Component {
           {this.renderLarge()}
           {this.renderTotal()}
 
-          
-
         </div>
       </div>
     );

@@ -7,10 +7,10 @@
 .cart{
     background-color: rgba(0,0,0,.45);
     color: white;
-    height: 60vh;
-    width: 35vw;
+    width: 40vmax;
+    height: 40vmax;
     border-radius: 30px;
-    margin: 0 35%;
+    margin: 0 auto;
 }
 
 .item-name{
@@ -76,3 +76,35 @@
     padding-top: 5%;
 }
 
+@media (max-width: 1605px){
+
+    .cart-background{
+        background-image: none;
+    }
+    .cart{
+        width: 45vmax;
+        height: 45vmax;
+    }
+}
+
+@media (max-width: 950px){
+    .cart{
+        width: 55vmax;
+        height: 55vmax;
+    }
+}
+
+@media (max-width: 800px){
+    /* .cart{
+        margin-top: 5%;
+        width: 40vmax;
+        height: 40vmax;
+    } */
+}
+
+@media (max-width: 600px){
+    .cart{
+        width: 35vmax;
+        height: 35vmax;
+    }
+}

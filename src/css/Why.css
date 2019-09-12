@@ -18,21 +18,21 @@
 
 .blue-square{
     background-color: #199DDB;
-    width: calc(60vw + 5vmin);
-    height: calc(10vh + 5vmin);
-    margin: 5% 0 0 auto;
+    width: calc(50vw + 5vmin);
+    height: calc(15vh + 7vmin);
+    margin: 5% auto 0 20%;
     color: white;
     opacity: .85;
     padding: 2%;
 }
 
 .packaging{
-    margin-top: 8%;
+    margin-top: 3%;
 }
 
 .fact-image{
-    width: 35%;
-    margin: 5% 0 0 50%;
+    width: 25%;
+    margin: 5% 35%;
 }
 
 
