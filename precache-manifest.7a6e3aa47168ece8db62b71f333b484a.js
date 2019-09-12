@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "49b689f0428ec93dbaf221670c9956bb",
+    "revision": "8361add516dc5e3f4bea1ba10a685373",
     "url": "/index.html"
   },
   {
-    "revision": "be8c5f024e1a4836a29f",
-    "url": "/static/css/main.61fc4a6c.chunk.css"
+    "revision": "809025328513d9727455",
+    "url": "/static/css/main.2f3c533f.chunk.css"
   },
   {
     "revision": "542ea47f5f778936792c",
     "url": "/static/js/2.62f9e0fa.chunk.js"
   },
   {
-    "revision": "be8c5f024e1a4836a29f",
+    "revision": "809025328513d9727455",
     "url": "/static/js/main.71b5bbad.chunk.js"
   },
   {
@@ -30,14 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fc2f80da86e0b3b7bd70e26a5beaaa42",
     "url": "/static/media/500ML.fc2f80da.jpg"
-  },
-  {
-    "revision": "64b56a05a7aab429e87b16e75127b9f9",
-    "url": "/static/media/Boxed-Confetti.64b56a05.png"
-  },
-  {
-    "revision": "9f7a52747f6b5cd79e82729143b0da98",
-    "url": "/static/media/Main.9f7a5274.png"
   },
   {
     "revision": "4c6310fccfc80105884c113a28c726a3",
