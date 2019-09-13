@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fbc48702a82372c517e1678f0476ea4e",
+    "revision": "7f80709f2922d9f0ce6b11c47f4be310",
     "url": "/boxed_water/index.html"
   },
   {
-    "revision": "d00c76902a277e70459a",
-    "url": "/boxed_water/static/css/main.0ce5f5c5.chunk.css"
+    "revision": "e3bb5016e7925be737ac",
+    "url": "/boxed_water/static/css/main.86017f2b.chunk.css"
   },
   {
     "revision": "b5fe162f40845657c2a5",
     "url": "/boxed_water/static/js/2.6150e5a1.chunk.js"
   },
   {
-    "revision": "d00c76902a277e70459a",
-    "url": "/boxed_water/static/js/main.3f509dd4.chunk.js"
+    "revision": "e3bb5016e7925be737ac",
+    "url": "/boxed_water/static/js/main.65e7b92d.chunk.js"
   },
   {
     "revision": "d86f2cf1f798d5a7830b",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "64b56a05a7aab429e87b16e75127b9f9",
     "url": "/boxed_water/static/media/Boxed-Confetti.64b56a05.png"
+  },
+  {
+    "revision": "9f7a52747f6b5cd79e82729143b0da98",
+    "url": "/boxed_water/static/media/Main.9f7a5274.png"
   },
   {
     "revision": "4c6310fccfc80105884c113a28c726a3",
