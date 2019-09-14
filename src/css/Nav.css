@@ -1,23 +1,28 @@
 .logo{
-    font-size: calc(1.3rem + 1vmin);
+    font-size: 5vmin;
     font-weight: 700;
-    width: 10vw;
     margin: 3vh 0 0 3vh;
+    width: 10vw;
 }
 
 .nav{
+    justify-content: center;
     font-size: calc(.8rem + 1vmin);
-    text-decoration: none;
-    margin: 3vh 30%;
+    width: 80vw;
+    margin: 3vh 0;
 }
 
 .nav-item{
-    list-style: none;
-    display: inline;
-    padding-right: 60%;
+    margin-right: 5%;
 }
 
 .link{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.85);
+}
+
+@media (max-width: 850px){
+    .nav{
+        justify-content: flex-end;
+    }
 }

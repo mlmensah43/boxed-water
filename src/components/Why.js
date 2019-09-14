@@ -3,7 +3,7 @@ import '../css/Why.css';
 
 function Why() {
   return (
-    <div className="">
+    <div>
         <div className="header-about">WHY BOXED WATER <br/> IS BETTER</div>
         {/* <div>
             <div className="subheader-about">THE<br/> FACTS</div>

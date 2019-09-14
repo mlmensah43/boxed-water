@@ -2,7 +2,7 @@
   "name": "boxed-water",
   "version": "0.1.0",
   "private": true,
-  "hompage": "https://mlmensah43.github.io/boxed_water/",
+  "homepage": "https://mlmensah43.github.io/boxed_water",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",

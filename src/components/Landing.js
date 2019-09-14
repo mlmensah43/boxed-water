@@ -15,10 +15,13 @@ function Landing (){
                     <span className="dot 4"></span>
                 </div> */}
                 <h2>BETTER PACKAGING <br/>BETTER PLANET</h2>
-                <p>Single-use plastic bottles are filling our landfills, polluting
-                our oceans, and affecting our earth. Choose the paper-
-                based alternative of Boxed Water and make a difference.
-                </p>
+                <div className="flex-container-row landing-blue-square">
+                    <p>Single-use plastic bottles are filling our landfills, polluting
+                    our oceans, and affecting our earth. Choose the paper-
+                    based alternative of Boxed Water and make a difference.
+                    </p>
+                </div>
+                
             </div>
 
             <div className="flex-container-row social-media">

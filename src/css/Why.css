@@ -16,15 +16,15 @@
     margin-top: 10%;
 }
 
-.blue-square{
+/* .blue-square{
     background-color: #199DDB;
-    width: calc(50vw + 5vmin);
+    width: calc(20vw + 5vmin);
     height: calc(15vh + 7vmin);
-    margin: 5% auto 0 20%;
+    margin:0;
     color: white;
     opacity: .85;
     padding: 2%;
-}
+} */
 
 .packaging{
     margin-top: 3%;

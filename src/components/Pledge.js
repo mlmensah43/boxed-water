@@ -12,11 +12,11 @@ function Pledge() {
                 <div>
                     <img className="pledge-image" src={require('../images/pledge.png')} alt="facts"></img>
                 </div>
-                <p className=" paragraph pledge">Plastic bottles are filling our earth and oceans at an alarming rate.<br/>
-                1500 plastic bottles are sent to landfills every second.<br/> 
-                At Boxed Water, we’ve had enough—and hope you feel the same.<br/> 
-                By taking the No-Plastic Pledge, you’ll be joining the movement<br/>
-                against plastic bottle consumption and doing your part for a<br/> 
+                <p className=" paragraph pledge">Plastic bottles are filling our earth and oceans at an alarming rate.
+                1500 plastic bottles are sent to landfills every second.
+                At Boxed Water, we’ve had enough—and hope you feel the same.
+                By taking the No-Plastic Pledge, you’ll be joining the movement
+                against plastic bottle consumption and doing your part for a
                 #BetterPlanet.
                 </p>
             </div>

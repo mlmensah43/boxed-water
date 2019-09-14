@@ -12,7 +12,7 @@
 }
 
 .pledge-merch-image{
-    width: 40vw;
+    width: 40%;
     margin: 5%;
 }
 
@@ -20,3 +20,12 @@
     margin-top: 20%;
 }
 
+.paragraph{
+    width: 50vw;
+}
+
+@media (max-width: 1000px){
+    .paragraph{
+        width: 70vw;;
+    }
+   }

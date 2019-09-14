@@ -29,9 +29,9 @@ function About() {
                 <div>
                     <div className="subheader-about">OUR<br/> TEAM</div>
                         <p className="paragraph description">
-                            Giving back to the planet is more than just a company philosophy.<br/> 
-                            For our employees, it’s personal. Together, the Boxed Water team<br/>
-                            is working toward a shared goal of creating a better tomorrow by<br/> 
+                            Giving back to the planet is more than just a company philosophy. 
+                            For our employees, it’s personal. Together, the Boxed Water team
+                            is working toward a shared goal of creating a better tomorrow by
                             creating more sustainable solutions today.
                         </p>
 
@@ -43,10 +43,10 @@ function About() {
                     <div className="subheader-about">OUR<br/> FACILATIES</div>
 
                     <p className="paragraph description">
-                        Boxed Water’s filling locations are strategically placed to allow us to<br/> 
-                        serve a wide variety of locations while keeping our carbon footprint down.<br/>
-                        Location is everything. To keep up with the growing demand for Boxed Water,<br/>
-                        we carefully chose our filling locations so we can reach more areas with a<br/> 
+                        Boxed Water’s filling locations are strategically placed to allow us to 
+                        serve a wide variety of locations while keeping our carbon footprint down.
+                        Location is everything. To keep up with the growing demand for Boxed Water,
+                        we carefully chose our filling locations so we can reach more areas with a
                         minimal carbon footprint.
                     </p>
 
