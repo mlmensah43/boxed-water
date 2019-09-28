@@ -14,7 +14,7 @@ function Why() {
             
             <img className="package-image" src={require('../images/package-image.png')} alt="facts"></img>
             <div className="">
-                <p className="blue-square">Roughly three-quarters of each of our boxes is made of
+                <p className="paragraph why-paragraph">Roughly three-quarters of each of our boxes is made of
                 paper, fully recyclable and free of BPAs and phthalates.
                 Our paper comes from well-managed forests which are
                 continually being replanted to replace harvested trees,

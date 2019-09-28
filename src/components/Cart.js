@@ -13,7 +13,7 @@ class Cart extends React.Component {
 
   addSmall = () => {
     if(this.state.small === 15){
-      alert("You may only purchase 15 packs of each size in one shipment");
+      alert("You may only purchase up to 15 packs of each size in one shipment");
       return
     }
     let num = sessionStorage.getItem('small');
@@ -42,7 +42,7 @@ class Cart extends React.Component {
 
   addMedium = () => {
     if(this.state.medium === 15){
-      alert("You may only purchase 15 packs of each size in one shipment");
+      alert("You may only purchase up to 15 packs of each size in one shipment");
       return
     }
     let num = sessionStorage.getItem('medium');
@@ -71,7 +71,7 @@ class Cart extends React.Component {
 
   addLarge = () => {
     if(this.state.large === 15){
-      alert("You may only purchase 15 packs of each size in one shipment");
+      alert("You may only purchase up to 15 packs of each size in one shipment");
       return
     }
     let num = sessionStorage.getItem('large');
@@ -104,7 +104,7 @@ class Cart extends React.Component {
     let m = sessionStorage.getItem('medium') * 24.74;
     let l = sessionStorage.getItem('large') * 35.74;
     let subtotal = s + m + l;
-    this.setState({total: parseFloat(Math.round(subtotal * 100) / 100).toFixed(2)});
+    this.setState({total: parseFloat(subtotal).toFixed(2)});
     sessionStorage.setItem('total',subtotal);
   }
 

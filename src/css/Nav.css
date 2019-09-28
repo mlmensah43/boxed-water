@@ -9,7 +9,7 @@
     justify-content: center;
     font-size: calc(.8rem + 1vmin);
     width: 80vw;
-    margin: 3vh 0;
+    margin: 3vh 0 0 0;
 }
 
 .nav-item{

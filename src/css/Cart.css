@@ -26,9 +26,9 @@
 
 }
 .full-button{
-    border: 1px solid;
+    border: 1.5px solid;
     border-radius: 24px;
-    width: 72px;
+    width: 75px;
     text-align: center;
     align-items: center;
 }
@@ -49,11 +49,13 @@
 
 .vr{
     border-right: 1px solid;
+    padding: 0 5px 0 5px;
     height: 100%;
 }
 
 .remove{
     color: red;
+    font-size: 2vmin;
 }
 
 .details{
