@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "984e3103ad57202cddb35acc6e00f327",
+    "revision": "e760cd9614cd0222c12c4409bfebe16d",
     "url": "/boxed_water/index.html"
   },
   {
-    "revision": "65a8b6283f1ea6f63129",
-    "url": "/boxed_water/static/css/main.d45ef945.chunk.css"
+    "revision": "2e8874022ab5b8459044",
+    "url": "/boxed_water/static/css/main.21cdc6b6.chunk.css"
   },
   {
     "revision": "b5fe162f40845657c2a5",
     "url": "/boxed_water/static/js/2.6150e5a1.chunk.js"
   },
   {
-    "revision": "65a8b6283f1ea6f63129",
-    "url": "/boxed_water/static/js/main.b86e0951.chunk.js"
+    "revision": "2e8874022ab5b8459044",
+    "url": "/boxed_water/static/js/main.d5912318.chunk.js"
   },
   {
     "revision": "d86f2cf1f798d5a7830b",
