@@ -40,9 +40,9 @@ const getSubtotal = () =>{
   let m = sessionStorage.getItem('medium') * 24.74;
   let l = sessionStorage.getItem('large') * 35.74;
   let subtotal = s + m + l;
-  parseFloat(subtotal).toFixed(2);
+  
 
-  sessionStorage.setItem('total', subtotal);
+  sessionStorage.setItem('total', parseFloat(subtotal).toFixed(2));
 };
 
 function Shop() {

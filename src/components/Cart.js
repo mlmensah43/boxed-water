@@ -105,7 +105,7 @@ class Cart extends React.Component {
     let l = sessionStorage.getItem('large') * 35.74;
     let subtotal = s + m + l;
     this.setState({total: parseFloat(subtotal).toFixed(2)});
-    sessionStorage.setItem('total',subtotal);
+    sessionStorage.setItem('total',this.state.total);
   }
 
   renderSmall(){

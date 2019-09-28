@@ -100,17 +100,10 @@
     .cart{
         margin-top: 5%;
         width: 90vw;
-        height: 90vw;
+        height: 110vmin;
     }
 
     .full-button{
-        width: 75px;
+        width: 85px;
     }
 }
-
-/* @media (max-width: 600px){
-    .cart{
-        width: 35vmax;
-        height: 35vmax;
-    }
-} */
